@@ -1,0 +1,77 @@
+﻿/* TEAM */
+
+	Project manager: N/A
+	Contacts:
+	From: City, Country
+
+	Team lead: N/A
+	Contacts:
+	From: City, Country
+
+	Editor: N/A
+	Contacts:
+	From: City, Country
+
+	UI designer: N/A
+	Contacts:
+	From: City, Country
+
+	UX designer: N/A
+	Contacts:
+	From: City, Country
+
+	Backend: N/A
+	Contacts:
+	From: City, Country
+
+	Frontend/Imposer: N/A
+	Contacts:
+	From: City, Country
+
+	Copywriter: N/A
+	Contacts:
+	From: City, Country
+
+	SEO: N/A
+	Contacts:
+	From: City, Country
+
+	Analyst: N/A
+	Contacts:
+	From: City, Country
+
+/* THANKS */
+
+	EN Translator: N/A
+	Contacts:
+	From: City, Country
+
+	DE Translator: N/A
+	Contacts:
+	From: City, Country
+
+	FR Translator: N/A
+	Contacts:
+	From: City, Country
+	
+	ZH Translator: N/A
+	Contacts:
+	From: City, Country
+	
+	JA Translator: N/A
+	Contacts:
+	From: City, Country
+
+/* SITE */
+
+	Last update: 0000/00/00
+	Language: Deutsch / English / Russian
+
+/* THIRD-PARTY CODE */
+
+Inferno | https://github.com/infernojs/inferno | Dominic Gannaway | MIT
+Normalize.css | https://github.com/necolas/normalize.css | Nicolas Gallagher and Jonathan Neal | MIT
+Dead Simple Grid | https://github.com/mourner/dead-simple-grid | Vladimir Agafonkin | MIT
+HTML5 Shiv | https://github.com/aFarkas/html5shiv | Alexander Farkas | MIT/GPL2
+IE7/IE8/IE9.js | http://code.google.com/p/ie7-js/ | Dean Edwards | MIT
+PIE | https://github.com/lojjic/PIE | Jason Johnston | Apache2/GPL2

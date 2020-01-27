@@ -1,0 +1,62 @@
+@import vars
+@import fonts
+@import libs
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+input, textarea
+	outline: none
+	&:focus:required:invalid
+		border-color: red
+	&:required:valid
+		border-color: green
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+
+// Custom Sass / Remove before use
+
+.container
+	max-width: 724px
+	padding:
+		right: 10px
+		left: 10px
+	margin:
+		left: auto
+		right: auto
+
+.feature
+	+media-breakpoint-up(sm)
+		width: 50%
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.example-img
+	width: 100%
+
+.parent // Lazy Load Placeholder Generator: https://webdesign-master.ru/services/lazy/
+	background-image: url(data:image/gif;base64,R0lGODlhCgAIAIABAN3d3f///yH5BAEAAAEALAAAAAAKAAgAAAINjAOnyJv2oJOrVXrzKQA7)
+
+// Block
+
+// Element
+
+// Mix
+
+// Modifier
+
+@import "media" // Always at the end

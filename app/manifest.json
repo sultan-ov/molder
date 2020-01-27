@@ -1,0 +1,26 @@
+{
+    "short_name": "",
+    "name": "",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "prefer_related_applications": false,
+    "related_applications": [
+        {
+            "platform": "web"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+* text=auto
+
+*.txt text eol=lf
+*.sh text eol=lf
+*.css text eol=lf
+*.sass text eol=lf
+*.scss text eol=lf
+*.php text eol=lf
+*.htc text eol=lf
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf linguist-language=JavaScript
+*.tsx text eol=lf linguist-language=JavaScript
+*.json text eol=lf
+*.html text eol=lf
+*.pug text eol=lf
+*.md text eol=lf
+
+*.svg text eol=lf
+
+*.webp binary
+*.jpeg binary
+*.jpg binary
+*.png binary
+*.pdf binary
+*.gif binary
+*.tif binary
+*.raw binary
+*.arw binary
+*.srf binary
+*.sr2 binary
+*.srw binary
+*.crw binary
+*.cr2 binary
+*.cr3 binary
+
+*.mp3 binary
+*.mp4 binary
+
+*.eot binary
+*.ttf binary
+*.woff binary
+*.woff2 binary
+
+.gitattributes text eol=lf
