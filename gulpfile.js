@@ -1,19 +1,19 @@
-const gulp         = require('gulp');
-const	sass         = require('gulp-sass');
-const	browserSync  = require('browser-sync').create();
-const	concat       = require('gulp-concat');
-const	cleancss     = require('gulp-clean-css');
+const gulp = require('gulp');
+const	sass = require('gulp-sass');
+const	browserSync = require('browser-sync').create();
+const	concat = require('gulp-concat');
+const	cleancss = require('gulp-clean-css');
 const	autoprefixer = require('gulp-autoprefixer');
-const	rsync        = require('gulp-rsync');
-const	newer        = require('gulp-newer');
-const	rename       = require('gulp-rename');
-const	imagemin     = require('gulp-imagemin');
-const	responsive   = require('gulp-responsive');
-const	merge        = require('merge-stream');
-const	del          = require('del');
-const	rollup       = require('rollup');
+const	rsync = require('gulp-rsync');
+const	newer = require('gulp-newer');
+const	rename = require('gulp-rename');
+const	imagemin = require('gulp-imagemin');
+const	responsive = require('gulp-responsive');
+const	merge = require('merge-stream');
+const	del = require('del');
+const	rollup = require('rollup');
 
-const	config       = require('./rollup.config.js');
+const	config = require('./rollup.config.js');
 
 // Local Server
 gulp.task('browser-sync', function() {
