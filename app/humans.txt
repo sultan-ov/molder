@@ -75,3 +75,4 @@ Dead Simple Grid | https://github.com/mourner/dead-simple-grid | Vladimir Agafon
 HTML5 Shiv | https://github.com/aFarkas/html5shiv | Alexander Farkas | MIT/GPL2
 IE7/IE8/IE9.js | http://code.google.com/p/ie7-js/ | Dean Edwards | MIT
 PIE | https://github.com/lojjic/PIE | Jason Johnston | Apache2/GPL2
+PhotoSwipe | https://github.com/dimsemenov/photoswipe | Dmitry Semenov | MIT
