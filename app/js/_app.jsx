@@ -31,3 +31,6 @@ class Clock extends Component {
 }
 
 render(<Clock />, document.getElementById("root"));
+
+// import PhotoSwipe from 'photoswipe';
+// import PhotoSwipeUI_Default from 'photoswipe-ui';

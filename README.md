@@ -149,3 +149,4 @@ Moulder includes the following optional libraries:
 - [HTML5 Shiv](https://github.com/aFarkas/html5shiv) \| Alexander Farkas \| [MIT/GPL2](https://github.com/aFarkas/html5shiv/blob/master/MIT%20and%20GPL2%20licenses.md)
 - [IE7/IE8/IE9.js](http://code.google.com/p/ie7-js/) \| Dean Edwards \| [MIT](http://www.opensource.org/licenses/mit-license.php)
 - [PIE](https://github.com/lojjic/PIE) \| Jason Johnston \| [Apache2/GPL2](https://github.com/lojjic/PIE/blob/master/LICENSE)
+- [PhotoSwipe](https://github.com/dimsemenov/photoswipe) \| Dmitry Semenov \| [MIT](https://github.com/dimsemenov/PhotoSwipe/blob/master/LICENSE)

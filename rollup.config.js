@@ -59,7 +59,9 @@ if (isProduction) {
 plugins.unshift(
   alias({
     resolve: extensions,
-    'inferno': __dirname + '/node_modules/inferno/dist/' + (isProduction ? 'index.esm.js' : 'index.dev.esm.js')
+    'inferno': __dirname + '/node_modules/inferno/dist/' + (isProduction ? 'index.esm.js' : 'index.dev.esm.js'),
+    // 'photoswipe': __dirname + '/app/libs/photoswipe/dist/photoswipe.js',
+    // 'photoswipe-ui': __dirname + '/app/libs/photoswipe/dist/photoswipe-ui-default.js'
   })
 );
 

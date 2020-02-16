@@ -1,19 +1,19 @@
-var gulp              = require('gulp'),
-		sass              = require('gulp-sass'),
-		browserSync       = require('browser-sync').create(),
-		concat            = require('gulp-concat'),
-		cleancss          = require('gulp-clean-css'),
-		autoprefixer      = require('gulp-autoprefixer'),
-		rsync             = require('gulp-rsync'),
-		newer             = require('gulp-newer'),
-		rename            = require('gulp-rename'),
-		imagemin          = require('gulp-imagemin'),
-		responsive        = require('gulp-responsive'),
-		merge             = require('merge-stream'),
-		del               = require('del'),
-		rollup            = require('rollup'),
+const gulp         = require('gulp');
+const	sass         = require('gulp-sass');
+const	browserSync  = require('browser-sync').create();
+const	concat       = require('gulp-concat');
+const	cleancss     = require('gulp-clean-css');
+const	autoprefixer = require('gulp-autoprefixer');
+const	rsync        = require('gulp-rsync');
+const	newer        = require('gulp-newer');
+const	rename       = require('gulp-rename');
+const	imagemin     = require('gulp-imagemin');
+const	responsive   = require('gulp-responsive');
+const	merge        = require('merge-stream');
+const	del          = require('del');
+const	rollup       = require('rollup');
 
-		config            = require('./rollup.config.js');
+const	config       = require('./rollup.config.js');
 
 // Local Server
 gulp.task('browser-sync', function() {
@@ -56,7 +56,7 @@ gulp.task('styles', function() {
 	.pipe(concat('styles.min.css'))
 	.pipe(autoprefixer({overrideBrowserslist: ['>= 0.01%']}))
 	.pipe(cleancss({
-		compatibility: 'ie8',
+		compatibility: 'ie9',
 		level: {
 			1: { specialComments: 0 },
 			2: { removeDuplicateFontRules: false }
@@ -95,8 +95,11 @@ gulp.task('img-processing', function() {
 	.pipe(imagemin())
 	.pipe(responsive({
 		'*': [{
+			// Produce @3x images
+			width: '100%', quality: 90, rename: { prefix: '@3x/', },
+		}, {
 			// Produce @2x images
-			width: '100%', quality: 90, rename: { prefix: '@2x/', },
+			width: '75%', quality: 90, rename: { prefix: '@2x/', }
 		}, {
 			// Produce @1x images
 			width: '50%', quality: 90, rename: { prefix: '@1x/', }
